@@ -1,0 +1,7 @@
+  <td>{{ mClient.id }}</td>
+  <td>{{ mClient.nom | uppercase }}</td>
+  <td>{{ mClient.prenom }}</td>
+  <td>{{ mClient.ca | confidential}}</td>
+  <td>{{ mClient.dateAjout | date:'dd/MM/yyyy' }}</td>
+  <td><button (click)="view()" class="btn btn-link">Voir</button></td>
+  <td><button (click)="delete()" class="btn btn-link">Suppr</button></td>

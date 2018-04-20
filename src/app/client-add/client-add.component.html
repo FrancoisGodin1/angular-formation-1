@@ -1,0 +1,25 @@
+<h2>Ajout d'un client</h2>
+<form [formGroup]="clientForm" (ngSubmit)="ajouterClient()">
+
+    <div>
+      <label>Prénom</label>
+      <input type="text" formControlName="prenom">
+    </div>
+    <div>
+      <label>Nom</label>
+      <input type="text" formControlName="nom">
+    </div>
+
+  <div>
+    <label>Age</label>
+    <input type="text" formControlName="age">
+  </div>
+  <div>
+    <label>CA</label>
+    <input type="text" formControlName="ca">
+  </div>
+<button type="submit">Ajouter</button>
+<div>
+    {{ clientForm.value | json }}
+  </div>
+</form>

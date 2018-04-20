@@ -1,0 +1,7 @@
+<p>Prenom du client: {{ mClient.prenom }}</p>
+<p>Age de {{ mClient.prenom }}: <span [style.color]="'red'" [style.fontSize]="taille">{{ mClient.age }}</span>
+<button (click)="ajouter()">+</button>
+<button (click)="enlever()">-</button>
+</p>
+
+<img src="./assets/cupra_r.jpg" *ngIf="mClient.age >= 18">

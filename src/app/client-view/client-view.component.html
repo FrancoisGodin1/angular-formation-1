@@ -1,0 +1,7 @@
+<h1>Détail du client</h1>
+<p>ID: {{ mClient.id }}</p>
+<p>Nom: {{ mClient.nom | uppercase }}</p>
+<p>Prénom: {{ mClient.prenom }}</p>
+<p>Age: {{ mClient.age }}</p>
+<p>CA: {{ mClient.ca | confidential}}</p>
+<p>Date d'ajout: {{ mClient.dateAjout | date:'dd/MM/yyyy' }}</p>

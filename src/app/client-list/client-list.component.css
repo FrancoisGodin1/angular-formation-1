@@ -1,0 +1,13 @@
+/*table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}*/
+.rouge{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+.vert{
+    background-color: rgba(0, 255, 0, 0.6);
+}
